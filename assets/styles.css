@@ -1,0 +1,55 @@
+/* General Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    text-align: center;
+    margin: 50px;
+}
+
+#chatbot-icon img {
+    width: 60px;
+    height: 60px;
+}
+
+#chatbot-window {
+    border-radius: 10px;
+}
+
+#chatbot-body {
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9em;
+}
+
+#chatbot-options button {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#chatbot-input-container {
+    display: none; /* Initially hidden */
+}
+
+#chatbot-messages {
+    flex-grow: 1;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Style for personalized tone messages */
+.formal-response {
+    font-style: italic;
+    color: #007bff;
+}
+
+.casual-response {
+    font-style: italic;
+    color: #28a745;
+}
